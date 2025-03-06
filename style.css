@@ -59,3 +59,39 @@ p {
 .header a:hover {
     text-decoration: underline;
 }
+
+
+/* ヘッダー全体のスタイル */
+.header {
+    background-color: #f5f0e6; /* 淡い茶色系背景 */
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+/* ヘッダー内のリンクスタイル */
+.header a {
+    text-decoration: none;
+    color: #5a4632; /* 茶色のテキスト */
+    background-color: #ede3d5; /* 薄いベージュの背景 */
+    padding: 8px 15px;
+    border-radius: 20px; /* 丸みのあるボタン風 */
+    margin: 0 8px;
+    transition: all 0.3s; /* スムーズなアニメーション */
+}
+
+/* マウスオーバー時のスタイル */
+.header a:hover {
+    background-color: #d7c8b1; /* より濃い茶色 */
+    color: #fff; /* 白い文字 */
+}
+
+/* ヘッダー内リンクの間隔 */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 12px; /* リンク同士の間隔を広げる */
+    margin-bottom: 40px;
+    padding: 15px;
+}
