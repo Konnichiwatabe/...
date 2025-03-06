@@ -77,3 +77,7 @@ p {
 body > h1:first-of-type {
     display: none;
 }
+/* GitHub Pagesの自動挿入リンクを非表示にする確実な方法 */
+header {
+    display: none !important;
+}
