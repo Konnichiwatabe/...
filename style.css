@@ -81,3 +81,7 @@ body > h1:first-of-type {
 header {
     display: none !important;
 }
+/* GitHub Pages自動のサイト名リンクを消す */
+body > :first-child {
+    display: none !important;
+}
