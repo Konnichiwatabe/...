@@ -34,3 +34,20 @@ p {
     margin-left: 15px;
     margin-bottom: 15px;
 }
+/* 日付単位の見出し（h3）をより目立たせる */
+h3 {
+    background-color: #f0f8ff;
+    padding: 8px 10px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* 本文部分の行間・余白を広げる */
+p {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    line-height: 1.9;
+    font-size: 1rem;
+}
