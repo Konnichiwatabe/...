@@ -73,19 +73,14 @@ p {
     color: #ffffff;
 }
 
-/* GitHubが生成した青色のサイト名リンクを消す */
-body > h1:first-of-type {
-    display: none;
-}
-/* GitHub Pagesの自動挿入リンクを非表示にする確実な方法 */
-header {
-    display: none !important;
-}
-/* GitHub Pages自動のサイト名リンクのみを非表示に */
-body > header:first-of-type {
-    display: none !important;
-}
-/* GitHub Pagesが自動挿入する青色リンク（リポジトリ名）を非表示 */
-body > div[role="navigation"] {
-    display: none !important;
+/* サイト名をおしゃれに表示するためのCSS */
+.site-name {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #5a4632; /* 茶系統 */
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px double #d7c8b1; /* おしゃれな二重下線 */
+    margin-top: 10px;
 }
