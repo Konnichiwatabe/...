@@ -1,9 +1,6 @@
 <link rel="stylesheet" href="style.css">
-<div class="header">
-  <a href="README.md">ホーム</a>
-  <a href="diary.md">日記一覧</a>
-  <a href="diary-2025-03-week1.md">今週の日記</a>
-</div>
+[ホーム](README.md) | [日記一覧](diary.md) | [今週の日記](diary-2025-03-week1.md)
+
 
 
 ## 自己紹介
