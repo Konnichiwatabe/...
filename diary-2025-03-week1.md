@@ -1,4 +1,9 @@
 <link rel="stylesheet" href="style.css">
+
+<div class="site-name">
+    ワタベの趣味広場
+</div>
+
 <div class="header">
   <nav>
   <a href="./">ホーム</a>
