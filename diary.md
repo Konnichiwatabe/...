@@ -1,10 +1,8 @@
 <link rel="stylesheet" href="style.css">
 <div class="header">
-  <nav>
-    <a href="README.html">ホーム</a>
-    <a href="diary.html">日記一覧</a>
-    <a href="diary-2025-03-week1.html">今週の日記</a>
-  </nav>
+  <a href="./">ホーム</a>
+  <a href="diary.html">日記一覧</a>
+  <a href="diary-2025-03-week1.html">今週の日記</a>
 </div>
 
 
