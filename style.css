@@ -85,3 +85,7 @@ header {
 body > header:first-of-type {
     display: none !important;
 }
+/* GitHub Pagesが自動挿入する青色リンク（リポジトリ名）を非表示 */
+body > div[role="navigation"] {
+    display: none !important;
+}
