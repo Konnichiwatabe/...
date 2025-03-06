@@ -13,3 +13,24 @@ h1, h2, h3 {
     font-family: 'Kaisei HarunoUmi', serif;
     font-weight: 400;
 }
+/* 月・週単位の見出し(h2) */
+h2 {
+    border-bottom: 2px solid #999;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+/* 日付単位の見出し(h3) */
+h3 {
+    background-color: #f0f8ff;
+    padding: 8px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* 日記の文章部分 */
+p {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
