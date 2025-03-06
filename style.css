@@ -15,39 +15,28 @@ h1, h2, h3 {
 }
 /* 月・週単位の見出し(h2) */
 h2 {
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #b18c60; /* 茶色系の下線 */
     margin-top: 30px;
     padding-bottom: 5px;
+    color: #5a4632; /* 茶色系 */
 }
 
-/* 日付単位の見出し(h3) */
+/* 日付単位の見出し(h3)を茶色で統一 */
 h3 {
-    background-color: #f0f8ff;
-    padding: 8px;
-    border-left: 5px solid #4a90e2;
+    background-color: #f5f0e6; /* 淡い茶色 */
+    padding: 8px 10px;
+    border-left: 5px solid #b18c60; /* 少し濃い茶色 */
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #5a4632; /* 濃い茶色 */
 }
 
 /* 日記の文章部分 */
 p {
     margin-left: 15px;
-    margin-bottom: 15px;
-}
-/* 日付単位の見出し（h3）をより目立たせる */
-h3 {
-    background-color: #f0f8ff;
-    padding: 8px 10px;
-    border-left: 5px solid #4a90e2;
-    border-radius: 4px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-/* 本文部分の行間・余白を広げる */
-p {
-    margin-left: 15px;
     margin-bottom: 20px;
     line-height: 1.9;
     font-size: 1rem;
+    color: #4b3b2c; /* 濃い茶色の文字 */
 }
