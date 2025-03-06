@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # ワタベの趣味広場
 
 ## 自己紹介
