@@ -1,6 +1,10 @@
 <link rel="stylesheet" href="style.css">
+<div class="header">
+  <a href="README.md">ホーム</a>
+  <a href="diary.md">日記一覧</a>
+  <a href="diary-2025-03-week1.md">今週の日記</a>
+</div>
 
-# ワタベの趣味広場
 
 ## 自己紹介
 - 名前：渡部泰地
