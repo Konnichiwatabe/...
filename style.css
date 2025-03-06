@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400&display=swap');
+
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: 400;
+    line-height: 1.8;
+    background-color: #fafafa;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: 400;
+}
