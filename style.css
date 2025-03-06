@@ -72,3 +72,8 @@ p {
     background-color: #e0d1c0; /* やや濃い色へ変化 */
     color: #ffffff;
 }
+
+/* GitHubが生成した青色のサイト名リンクを消す */
+body > h1:first-of-type {
+    display: none;
+}
