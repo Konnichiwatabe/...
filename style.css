@@ -79,9 +79,10 @@ p {
     background-image: url('headerneko.webp');
     background-size: cover;
     background-position: center;
-    padding: 40px 15px; /* 上下左右の余白調整 */
+    padding: 35px 15px; /* 上下左右の余白調整 */
     color: #fff; /* 視認性アップの白色文字 */
-    font-size: 2rem; /* 程よい大きさ */
+    font-size: 2.8rem; /* 程よい大きさ */
+    letter-spacing: 0.2em;  /* 文字の間隔を広げる */
     font-family: 'Kaisei HarunoUmi', serif; /*実験的に*/
     text-align: center;
     font-weight: bold;
@@ -92,16 +93,17 @@ p {
     color: #ffffff; /* 文字を白にして視認性を向上 */
 }
 
-/* スマホ表示の最適化 */
-@media screen and (max-width: 768px) {
 
-    /* サイト名をスマホで見やすく */
+/* スマホでのサイト名調整 */
+@media screen and (max-width: 768px) {
     .site-name {
         font-family: 'Kaisei HarunoUmi', serif;
-        font-size: 1.5rem;
-        padding: 20px 10px;
+        font-size: 2rem;         /* スマホ表示用の適度なフォントサイズ */
+        letter-spacing: 0.15em;  /* スマホ用の文字間隔 */
+        padding: 25px 10px;      /* スマホでの余白調整 */
         width: 95%;
     }
+}
 
     /* ヘッダーリンクを縦並びにして見やすく */
     .header nav {
