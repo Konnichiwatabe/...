@@ -91,7 +91,7 @@ ul, li {
     background-image: url('headerneko.webp');
     background-size: cover;
     background-position: center;
-    padding: 60px 20px; /* 上下左右の余白調整 */
+    padding: 50px 20px; /* 上下左右の余白調整 */
     color: #fff; /* 視認性アップの白色文字 */
     font-size: 5.0rem; /* 程よい大きさ */
     letter-spacing: 1.0em;  /* 文字の間隔を広げる */
