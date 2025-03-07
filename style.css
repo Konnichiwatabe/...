@@ -94,6 +94,21 @@ p {
     color: #ffffff; /* 文字を白にして視認性を向上 */
 }
 
+/* PC表示のときだけリンクを横並びに戻す */
+@media screen and (min-width: 769px) {
+    .header nav {
+        flex-direction: row; /* 横並びに戻す */
+        justify-content: center; /* 中央揃え */
+    }
+
+    .header a {
+        width: auto; /* 幅の自動調整 */
+        padding: 12px 20px; /* 適切な余白 */
+        margin: 0 8px; /* 左右の間隔 */
+        font-size: 1.1rem; /* PC表示での文字サイズ */
+    }
+}
+
 
 /* スマホでのサイト名調整 */
 @media screen and (max-width: 768px) {
