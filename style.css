@@ -97,6 +97,7 @@ p {
 
     /* サイト名をスマホで見やすく */
     .site-name {
+        font-family: 'Kaisei HarunoUmi', serif;
         font-size: 1.5rem;
         padding: 20px 10px;
         width: 95%;
