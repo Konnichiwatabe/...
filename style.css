@@ -105,18 +105,21 @@ ul, li {
     color: #ffffff; /* 文字を白にして視認性を向上 */
 }
 
-/* PC表示のときだけリンクを横並びに戻す */
+
+/* PC版ではヘッダーを横並びにする */
 @media screen and (min-width: 769px) {
     .header nav {
-        flex-direction: row; /* 横並びに戻す */
-        justify-content: center; /* 中央揃え */
+        display: flex; /* 横並び */
+        justify-content: center; /* 中央寄せ */
+        gap: 20px; /* 各リンクの間隔 */
+        flex-direction: row !important; /* 強制的に横並び */
     }
 
     .header a {
-        width: auto; /* 幅の自動調整 */
-        padding: 12px 20px; /* 適切な余白 */
-        margin: 0 8px; /* 左右の間隔 */
-        font-size: 1.1rem; /* PC表示での文字サイズ */
+        display: inline-block; /* 横並びを強制 */
+        width: auto; /* 幅を適切に */
+        padding: 12px 20px; /* 余白調整 */
+        font-size: 1.1rem; /* フォントサイズを調整 */
     }
 }
 
