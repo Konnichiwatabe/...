@@ -6,7 +6,7 @@
 
 <div class="header">
   <nav>
-  <a href="./">ホーム</a>
+  <a href="./">自己紹介</a>
     <a href="diary.html">記録一覧</a>
     <a href="diary-2025-03-week1.html">今週の記録</a>
   </nav>
