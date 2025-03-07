@@ -102,7 +102,7 @@ ul, li {
     border-radius: 12px; /* 角丸をやや強調 */
     margin: 15px auto; /* 上下の余白と中央寄せ */
     width: 80%; /* 幅を指定してバランスを良く */
-    ext-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* 影を濃く、範囲を広げる */
+    ext-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9); /* 影を濃く、範囲を広げる */
     color: #ffffff; /* 文字を白にして視認性を向上 */
 }
 
