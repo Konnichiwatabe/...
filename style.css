@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&display=swap');
 
 body {
     font-family: 'Kaisei HarunoUmi', serif;
@@ -34,13 +35,23 @@ h3 {
 
 /* 日記の文章部分 */
 p {
-    font-family: 'Kaisei HarunoUmi', serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     margin-left: 15px;
     margin-bottom: 20px;
     line-height: 1.9;
     font-size: 1rem;
     color: #4b3b2c; /* 濃い茶色の文字 */
 }
+
+/* 箇条書きリストのフォントを統一 */
+ul, li {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /* フォントサイズ（必要に応じて調整） */
+    line-height: 1.8; /* 行間を適度に */
+    color: #4b3b2c; /* 濃い茶色の文字 */
+}
+
 
 /* おしゃれなヘッダー */
 .header {
