@@ -91,11 +91,12 @@ ul, li {
     background-image: url('headerneko.webp');
     background-size: cover;
     background-position: center;
-    padding: 40px 20px; /* 上下左右の余白調整 */
+    padding: 60px 20px; /* 上下左右の余白調整 */
     color: #fff; /* 視認性アップの白色文字 */
     font-size: 5.0rem; /* 程よい大きさ */
     letter-spacing: 1.0em;  /* 文字の間隔を広げる */
     font-family: 'Kaisei HarunoUmi', serif; /*実験的に*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* 文字の影をつけて視認性アップ */
     text-align: center;
     font-weight: bold;
     border-radius: 12px; /* 角丸をやや強調 */
@@ -133,6 +134,7 @@ ul, li {
         letter-spacing: 0.15em;  /* スマホ用の文字間隔 */
         padding: 25px 10px;      /* スマホでの余白調整 */
         width: 95%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* やわらかい影を追加 */
     }
 }
 
