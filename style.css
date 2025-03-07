@@ -90,3 +90,49 @@ p {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* やわらかい影を追加 */
     color: #ffffff; /* 文字を白にして視認性を向上 */
 }
+
+/* スマホ表示の最適化 */
+@media screen and (max-width: 768px) {
+
+    /* サイト名をスマホで見やすく */
+    .site-name {
+        font-size: 1.5rem;
+        padding: 20px 10px;
+        width: 95%;
+    }
+
+    /* ヘッダーリンクを縦並びにして見やすく */
+    .header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .header a {
+        width: 90%;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.1rem;
+    }
+
+    /* 見出しが長すぎてはみ出る問題を解決 */
+    h1, h2, h3 {
+        font-size: 1.3rem;
+        word-break: break-all; /* 強制改行させる */
+    }
+
+    /* サイト名の背景画像サイズ調整 */
+    .site-name {
+        font-size: 1.5rem;
+        padding: 20px 10px;
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    /* 全体の左右余白調整 */
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
