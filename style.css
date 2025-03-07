@@ -79,7 +79,7 @@ p {
     background-image: url('headerneko.webp');
     background-size: cover;
     background-position: center;
-    padding: 35px 15px; /* 上下左右の余白調整 */
+    padding: 35px 20px; /* 上下左右の余白調整 */
     color: #fff; /* 視認性アップの白色文字 */
     font-size: 2.8rem; /* 程よい大きさ */
     letter-spacing: 0.2em;  /* 文字の間隔を広げる */
