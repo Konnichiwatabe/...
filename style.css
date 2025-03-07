@@ -116,6 +116,7 @@ ul, li {
     }
 
     .header a {
+        font-family: 'Kaisei HarunoUmi', serif;
         display: inline-block; /* 横並びを強制 */
         width: auto; /* 幅を適切に */
         padding: 12px 20px; /* 余白調整 */
@@ -144,6 +145,7 @@ ul, li {
     }
 
     .header a {
+        font-family: 'Kaisei HarunoUmi', serif;
         width: 90%;
         text-align: center;
         padding: 10px 0;
