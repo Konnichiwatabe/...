@@ -73,28 +73,20 @@ p {
     color: #ffffff;
 }
 
-/* サイト名をおしゃれに表示するためのCSS */
-.site-name {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #5a4632; /* 茶系統 */
-    font-weight: bold;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 3px double #d7c8b1; /* おしゃれな二重下線 */
-    margin-top: 10px;
-}
 
-
+/* サイトタイトルをより見やすく、おしゃれに */
 .site-name {
-    background-image: url('headerneko.webp');
+    background-image: url('background.png');
     background-size: cover;
     background-position: center;
-    padding: 25px;
-    font-size: 2rem;
+    padding: 40px 15px; /* 上下左右の余白調整 */
+    color: #fff; /* 視認性アップの白色文字 */
+    font-size: 2rem; /* 程よい大きさ */
     text-align: center;
-    color: #fff;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    font-weight: bold;
+    border-radius: 12px; /* 角丸をやや強調 */
+    margin: 20px auto; /* 上下の余白と中央寄せ */
+    width: 80%; /* 幅を指定してバランスを良く */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* やわらかい影を追加 */
+    color: #ffffff; /* 文字を白にして視認性を向上 */
 }
