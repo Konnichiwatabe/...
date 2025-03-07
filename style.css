@@ -76,7 +76,7 @@ p {
 
 /* サイトタイトルをより見やすく、おしゃれに */
 .site-name {
-    background-image: url('background.png');
+    background-image: url('headerneko.webp');
     background-size: cover;
     background-position: center;
     padding: 40px 15px; /* 上下左右の余白調整 */
