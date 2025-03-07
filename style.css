@@ -93,13 +93,13 @@ ul, li {
     background-position: center;
     padding: 40px 20px; /* 上下左右の余白調整 */
     color: #fff; /* 視認性アップの白色文字 */
-    font-size: 3.5rem; /* 程よい大きさ */
-    letter-spacing: 0.5em;  /* 文字の間隔を広げる */
+    font-size: 5.0rem; /* 程よい大きさ */
+    letter-spacing: 1.0em;  /* 文字の間隔を広げる */
     font-family: 'Kaisei HarunoUmi', serif; /*実験的に*/
     text-align: center;
     font-weight: bold;
     border-radius: 12px; /* 角丸をやや強調 */
-    margin: 20px auto; /* 上下の余白と中央寄せ */
+    margin: 15px auto; /* 上下の余白と中央寄せ */
     width: 80%; /* 幅を指定してバランスを良く */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* やわらかい影を追加 */
     color: #ffffff; /* 文字を白にして視認性を向上 */
