@@ -96,7 +96,6 @@ ul, li {
     font-size: 5.0rem; /* 程よい大きさ */
     letter-spacing: 1.0em;  /* 文字の間隔を広げる */
     font-family: 'Kaisei HarunoUmi', serif; /*実験的に*/
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* 文字の影をつけて視認性アップ */
     text-align: center;
     font-weight: bold;
     border-radius: 12px; /* 角丸をやや強調 */
